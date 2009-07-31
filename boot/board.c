@@ -97,6 +97,7 @@ void board_ulpi_init(void)
 
 void board_reboot(void)
 {
+    reboot();
 }
 
 void board_getvar(const char *name, char *value)
