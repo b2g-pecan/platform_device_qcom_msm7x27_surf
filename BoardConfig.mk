@@ -22,6 +22,9 @@
 ifeq ($(QC_PROP),true)
     BOARD_USES_QCOM_HARDWARE := true
     BOARD_USES_ADRENO_200 := true
+    HAVE_ADRENO200_SOURCE := true
+    HAVE_ADRENO200_SC_SOURCE := true
+    HAVE_ADRENO200_FIRMWARE := true
 
     ifneq ($(BUILD_TINY_ANDROID), true)
     BOARD_GPS_LIBRARIES := libloc
