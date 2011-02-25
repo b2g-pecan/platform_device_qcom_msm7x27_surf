@@ -70,3 +70,8 @@ ro.bluetooth.remote.autoconnect=true
 # System prop to enable/disable OMH. Enabled by default
 #
 persist.omh.enabled=1
+
+#
+# system prop for Bluetooth FTP profile
+#
+ro.qualcomm.bluetooth.ftp=true
