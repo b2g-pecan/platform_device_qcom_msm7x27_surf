@@ -75,3 +75,8 @@ persist.omh.enabled=1
 # system prop for Bluetooth FTP profile
 #
 ro.qualcomm.bluetooth.ftp=true
+#
+# system prop for Bluetooth Dialup Networking
+#
+ro.qualcomm.bluetooth.dun=true
+#
