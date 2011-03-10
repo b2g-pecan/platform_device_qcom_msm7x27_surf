@@ -22,7 +22,7 @@ dalvik.vm.heapsize=24m
 #
 # system props for the cne module
 #
-persist.cne.UseCne=none
+persist.cne.UseCne=vendor
 persist.cne.bat.range.low.med=30
 persist.cne.bat.range.med.high=60
 persist.cne.loc.policy.op=/system/etc/OperatorPolicy.xml
