@@ -38,10 +38,12 @@ $(file) : $(TARGET_PREBUILT_KERNEL) | $(ACP)
 
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := surf_keypad.kcm
+LOCAL_MODULE_TAGS := optional
 include $(BUILD_KEY_CHAR_MAP)
 
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := 7k_ffa_keypad.kcm
+LOCAL_MODULE_TAGS := optional
 include $(BUILD_KEY_CHAR_MAP)
 
 file := $(TARGET_OUT_KEYLAYOUT)/surf_keypad.kl
