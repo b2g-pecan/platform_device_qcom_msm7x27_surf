@@ -80,3 +80,6 @@ ro.qualcomm.bluetooth.ftp=true
 #
 ro.qualcomm.bluetooth.dun=true
 #
+# system prop for requesting Master role in incoming Bluetooth connection.
+#
+ro.bluetooth.request.master=true
