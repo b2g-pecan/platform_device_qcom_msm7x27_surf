@@ -98,3 +98,7 @@ ro.bluetooth.request.master=true
 #
 ro.screen.layout=normal
 #
+
+# Turn off tiled rendering
+#
+debug.enabletr=false
